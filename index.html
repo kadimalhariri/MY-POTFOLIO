@@ -1,17 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-</head>
-<body>
-    <h1 class="font-bold  text-red-600">
-        Hello world!
-      </h1>
-    
-</body>
+    <title>PORT</title>
+  </head>
+  <body>
+    <!-- Starting header -->
+    <header class="w-full bg-blue-900 h-[80px] flex justify-between">
+      <!-- Starting header logo -->
+      <div class="logo w-[50%] flex items-center">
+        <h2 class="ml-[40px] text-3xl font-bold text-white">Finexo</h2>
+      </div>
+      <!-- Ending header logo -->
+
+      <!-- Starting header nav -->
+      <div class="nav-bar w-[50%] flex items-center justify-end">
+        <nav class="max-md:hidden">
+          <ul class="flex gap-[40px] items-center justify-center">
+            <li>
+              <span class="text-blue-400"><a href="">HOME</a></span>
+            </li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">SERVICES</a></li>
+            <li><a href="">WHY US</a></li>
+            <li><a href="">TEAM</a></li>
+            <li><i class="fa-solid fa-user"></i> <a href=""> LOGIN</a></li>
+            <li><i class="fa-solid fa-magnifying-glass"></i></li>
+          </ul>
+        </nav>
+        <span class="bar max-md:text-white text-3xl m-[35px] md:hidden"
+          ><i class="fa-solid fa-bars"></i
+        ></span>
+      </div>
+      <!-- Ending header nav -->
+    </header>
+    <!-- Ending header -->
+
+    <!-- Starting CRYPTO section -->
+    <section class="crypto w-full h-[690px] flex gap-2 max-md:block  max-md:h-[900px]">
+      <!-- Starting CRYPTO section content -->
+      <div class="w-[50%] h-[100%] flex items-center justify-center max-md:w-[100%] max-md:h-[400px]">
+        <div class="content w-[450px]  h-[300px]">
+          <h2 class="text-white text-5xl font-bold my-[30px]">
+            CRYPTO <br />
+            CURRENCY
+          </h2>
+          <p class="text-white">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint,
+            dignissimos, modi Lorem hello world i am lord , elite  ipsum dolor, sit amet consectetur
+            adipisicing elit.
+          </p>
+          <button class="bg-blue-400 mt-[30px]  py-[10px] px-[40px] text-white">Read more</button>
+        </div>
+      </div>
+      <!-- Ending CRYPTO section content -->
+      <!-- Starting CRYPTO section photo -->
+      <div class="w-[50%] h-[100%] flex items-center  max-md:w-[100%] max-md:h-[300px] max-md:flex-col ">
+        <img src="./img/slider-img.png" alt="Cellphone" class="w-[600px] h-[600px] max-md:w-[400px] max-md:h-[400px] max-md:text-center" />
+       <div class="hidden max-md:block max-md:w-full max-md:text-center max-md:mt-5">
+        <ul class=" gap-2 list-none max-md:flex max-md:justify-center">
+            <li class="font-bold bg-blue-500 w-5 h-5 rounded-full"></li>
+            <li class="font-bold bg-white w-4 h-4 rounded-full hover:bg-blue-500"></li>
+            <li class="font-bold bg-white w-4 h-4 rounded-full hover:bg-blue-500"></li>
+        </ul>
+       </div>
+      </div>
+      <!-- Ending CRYPTO section photo -->
+    </section>
+    <!-- Ending CRYPTO section -->
+  </body>
 </html>
