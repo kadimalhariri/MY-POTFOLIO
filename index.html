@@ -13,8 +13,9 @@
     <title>PORT</title>
   </head>
   <body>
-    <!-- Starting header -->
-    <header class="w-full bg-blue-900 h-[80px] flex justify-between">
+    <main>
+      <!-- Starting header -->
+    <header class="w-full  h-[80px] flex justify-between">
       <!-- Starting header logo -->
       <div class="logo w-[50%] flex items-center">
         <h2 class="ml-[40px] text-3xl font-bold text-white">Finexo</h2>
@@ -63,10 +64,10 @@
       </div>
       <!-- Ending CRYPTO section content -->
       <!-- Starting CRYPTO section photo -->
-      <div class="w-[50%] h-[100%] flex items-center  max-md:w-[100%] max-md:h-[300px] max-md:flex-col ">
+      <div class="relative w-[50%] h-[100%] flex items-center  max-md:w-[100%] max-md:h-[300px] max-md:flex-col ">
         <img src="./img/slider-img.png" alt="Cellphone" class="w-[600px] h-[600px] max-md:w-[400px] max-md:h-[400px] max-md:text-center" />
-       <div class="hidden max-md:block max-md:w-full max-md:text-center max-md:mt-5">
-        <ul class=" gap-2 list-none max-md:flex max-md:justify-center">
+       <div class="absolute bottom-3 left-[-50px] max-md:bottom-[-100px] max-md:block max-md:w-full max-md:text-center max-md:mt-5">
+        <ul class="flex flex-row gap-2 list-none max-md:flex max-md:justify-center">
             <li class="font-bold bg-blue-500 w-5 h-5 rounded-full"></li>
             <li class="font-bold bg-white w-4 h-4 rounded-full hover:bg-blue-500"></li>
             <li class="font-bold bg-white w-4 h-4 rounded-full hover:bg-blue-500"></li>
@@ -76,5 +77,76 @@
       <!-- Ending CRYPTO section photo -->
     </section>
     <!-- Ending CRYPTO section -->
+
+    <!-- Starting Services section -->
+    <section class="services w-full h-[700px]">
+      <!-- Starting services title -->
+      <div class="w-full h-[150px] mt-[80px] flex flex-col items-center justify-center
+      max-md:px-[50px]">
+          <h2 class="text-4xl font-bold my-3">Our <span class="text-blue-500">Services</span></h2>
+          <p class="max-md:text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium omnis necessitat.</p>
+      </div>
+      <!-- Ending services title -->
+      <!-- Starting services cards -->
+      <div class="w-full h-[400px] flex items-center justify-center gap-5 px-[70px]
+      max-md:flex max-md:flex-col max-md:h-[1000px]">
+        <div class="bg-gray-100 w-[390px] h-[319px] text-center flex flex-col justify-center items-center rounded">
+          <img src="./img/s1.png" class="w-[80px] h-[80px]" alt="">
+          <h2 class="text-2xl font-bold py-3">CURRENCY WALLET</h2>
+          <P>Lorem, ipsum dolor sit amet consectetur adipisicing sit amet consectetur adipisicing elit. Mollitia laudantium omnis necessitat</P>
+          <button class="py-5"><a href="" class="text-sm">Read More</a></button>
+        </div>
+        <div class="bg-gray-100 w-[390px] h-[319px] text-center flex flex-col justify-center items-center rounded">
+          <img src="./img/s2.png" class="w-[80px] h-[80px]" alt="">
+          <h2 class="text-2xl font-bold py-3">CECURTY STORAGE</h2>
+          <P>Lorem, ipsum dolor sit amet consectetur adipisicing sit amet consectetur adipisicing elit. Mollitia laudantium omnis necessitat</P>
+          <button class="py-5"><a href="" class="text-sm">Read More</a></button>
+        </div>
+        <div class="bg-gray-100 w-[390px] h-[319px] text-center flex flex-col justify-center items-center rounded">
+          <img src="./img/s3.png" class="w-[80px] h-[80px]" alt="">
+          <h2 class="text-2xl font-bold py-3">EXPERT SUPPORT</h2>
+          <P>Lorem, ipsum dolor sit amet consectetur adipisicing sit amet consectetur adipisicing elit. Mollitia laudantium omnis necessitat</P>
+          <button class="py-5"><a href="" class="text-sm">Read More</a></button>
+        </div>
+
+      </div>
+      <!-- Ending services cards -->
+      <!-- Starting services button -->
+      <div class="w-full h-[150px] flex justify-center items-center">
+        <button class="bg-blue-400 text-white py-[10px] px-[40px] ">View All</button>
+      </div>
+      <!-- Ending services buttom -->
+
+    </section>
+    <!-- Ending Services section -->
+    <!-- Starting About Us section -->
+      <section class="about w-full h-[700px] max-md:mt-[600px]">
+        <!-- Starting About Us title -->
+        <div class="w-full h-[150px] mt-[80px] flex flex-col items-center justify-center
+        max-md:px-[50px] bg-blue-950 text-white max-md:h-[250px]">
+            <h2 class="text-4xl font-bold my-3">About <span class="text-blue-400">Us</span></h2>
+            <p class="max-md:text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium omnis necessitat.</p>
+        </div>
+        <!-- Ending About Us title -->
+        <!-- Starting About Us -->
+        <div class="w-full bg-blue-950 h-[600px] flex items-center justify-center px-[70px]
+        max-md:flex max-md:flex-col max-md:h-[1000px] max-md:px-[0px] ">
+          <div class="bg-blue-950 w-[50%] h-[400px] flex justify-end max-md:block max-md:w-full max-md:h-[400px] max-md:flex max-md:justify-center items-center">
+            <img src="./img/about-img.png" class="w-[80%] h-[100%]" alt="">
+          </div>
+          <div class="bg-blue-950 text-white w-[50%] h-[500px] ">
+            <h2 class="text-3xl font-bold py-3">We Are Finexo</h2>
+            <p class="my-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All</p>
+            <p>Molestiae odio earum non qui cumque provident voluptates, repellendus exercitationem, possimus at iste corrupti officiis unde alias eius ducimus reiciendis soluta eveniet. Nobis ullam ab omnis quasi expedita.</p>
+            <button class="bg-blue-400 text-white mt-5 py-[10px] px-[40px]"><a href="">Read More</a></button>
+          </div>
+  
+        </div>
+        <!-- Ending About Us -->
+  
+     
+    </section>
+    <!-- Ending About Us section  -->
+    </main>
   </body>
 </html>

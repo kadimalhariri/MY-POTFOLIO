@@ -7,6 +7,9 @@
 * {
     box-sizing: border-box;
 }
+header {
+    background-color: #06014A;
+}
 header li {
     width: 70px;
     color: white;
